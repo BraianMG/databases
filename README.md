@@ -2,8 +2,10 @@
 
 ## Build database
 - Have Docker installed and running
-- Go to database directory, for example: `cd postgresql`
-- Run: `docker-compose up -d`
+- Run: 
+  - PostgreSQL: `docker-compose -f postgresql/docker-compose.yml up -d`
+  - MySQL: `docker-compose -f mysql/docker-compose.yml up -d`
+  - MariaDB: `docker-compose -f mariadb/docker-compose.yml up -d`
 
 ## Credentials
 
